@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUCCI - Products</title>
+    <link rel="stylesheet" href="BSCS25040_Style.css">
+    <script src="BSCS25040_Script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PUCCI</div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="BSCS25040_Products.html" class="active">PRODUCTS</a></li>
+                <li><a href="BSCS25040_Contacts.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main class="products-main">
+    <h1>Our T-Shirt Collection</h1>
+
+    <div class="product-box" id="p1">
+        <div class="product-image">
+            <img src="BSCS25040_Image01.webp" alt="Classic Cotton T-Shirt">
+        </div>
+        <div class="product-details">
+            <h2>Classic Cotton T-Shirt</h2>
+            <p class="price">Rs. 1,499</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">Soft, breathable cotton with a timeless round neck. Ideal for everyday comfort and casual outings.</p>
+            <button onclick="checkStock('p1')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p2">
+        <div class="product-image">
+            <img src="BSCS25040_Image02.webp" alt="Minimalist Plain Tee">
+        </div>
+        <div class="product-details">
+            <h2>Minimalist Plain Tee</h2>
+            <p class="price">Rs. 2,299</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">A clean, simple design for a versatile look. Perfect for pairing with jeans or layering under a jacket.</p>
+            <button onclick="checkStock('p2')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p3">
+        <div class="product-image">
+            <img src="BSCS25040_Image03.webp" alt="Graphic Print T-Shirt">
+        </div>
+        <div class="product-details">
+            <h2>Graphic Print T-Shirt</h2>
+            <p class="price">Rs. 1,799</p>
+            <p class="availability out-of-stock">Out of Stock</p>
+            <p class="description">Bold and stylish graphics on premium cotton fabric. A statement piece for your casual collection.</p>
+            <button onclick="checkStock('p3')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p4">
+        <div class="product-image">
+            <img src="BSCS25040_Image04.webp" alt="V-Neck Casual Tee">
+        </div>
+        <div class="product-details">
+            <h2>V-Neck Casual Tee</h2>
+            <p class="price">Rs. 1,599</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">Modern V-neck cut with a slim fit. Light and airy, designed for all-day comfort in warmer weather.</p>
+            <button onclick="checkStock('p4')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p5">
+        <div class="product-image">
+            <img src="BSCS25040_Image05.webp" alt="Oversized Street Tee">
+        </div>
+        <div class="product-details">
+            <h2>Oversized Street Tee</h2>
+            <p class="price">Rs. 1,999</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">Relaxed oversized fit with dropped shoulders. A trendy choice for a streetwear-inspired look.</p>
+            <button onclick="checkStock('p5')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p6">
+        <div class="product-image">
+            <img src="BSCS25040_Image06.webp" alt="Striped Casual Tee">
+        </div>
+        <div class="product-details">
+            <h2>Striped Casual Tee</h2>
+            <p class="price">Rs. 1,199</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">Features subtle horizontal stripes on soft cotton fabric. Great for a relaxed yet stylish vibe.</p>
+            <button onclick="checkStock('p6')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p7">
+        <div class="product-image">
+            <img src="BSCS25040_Image07.webp" alt="Slim Fit Tee">
+        </div>
+        <div class="product-details">
+            <h2>Slim Fit Tee</h2>
+            <p class="price">Rs. 1,299</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">Tailored slim fit design that contours the body for a sharp, modern look without sacrificing comfort.</p>
+            <button onclick="checkStock('p7')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p8">
+        <div class="product-image">
+            <img src="BSCS25040_Image08.webp" alt="Retro Ringer Tee">
+        </div>
+        <div class="product-details">
+            <h2>Retro Ringer Tee</h2>
+            <p class="price">Rs. 1,399</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">Classic retro design with contrasting collar and sleeve bands. A throwback style made modern.</p>
+            <button onclick="checkStock('p8')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p9">
+        <div class="product-image">
+            <img src="BSCS25040_Image09.webp" alt="Athletic Performance Tee">
+        </div>
+        <div class="product-details">
+            <h2>Athletic Performance Tee</h2>
+            <p class="price">Rs. 1,699</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">Moisture-wicking fabric keeps you dry and fresh, perfect for workouts or active lifestyles.</p>
+            <button onclick="checkStock('p9')">Check Stock</button>
+        </div>
+    </div>
+
+    <div class="product-box" id="p10">
+        <div class="product-image">
+            <img src="BSCS25040_Image10.webp" alt="Luxury Soft Touch Tee">
+        </div>
+        <div class="product-details">
+            <h2>Luxury Soft Touch Tee</h2>
+            <p class="price">Rs. 1,899</p>
+            <p class="availability in-stock">In Stock</p>
+            <p class="description">Premium ultra-soft finish with a smooth texture. Designed for those who value comfort and class.</p>
+            <button onclick="checkStock('p10')">Check Stock</button>
+        </div>
+    </div>
+</main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Cell: +92 300 1234567</p>
+                <p>Email: bscs25040@itu.edu.pk</p>
+                <p>Location: Arfa Software Technology Park, Lahore, Pakistan</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="BSCS25040_Home.html">Home</a></li>
+                    <li><a href="BSCS25040_Products.html">Products</a></li>
+                    <li><a href="BSCS25040_Contacts.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> PUCCI. All rights reserved.</p>
+            <p id="year">&copy;</p>
+        </div>
+    </footer>
+</body>
+</html>
